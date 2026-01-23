@@ -7,19 +7,11 @@ Repositório central para compartilhamento de conhecimento, materiais de estudo 
 #### 📌 Pilares de Conhecimento
 A estrutura é dividida em pilares estratégicos para facilitar a navegação e o aprendizado:
 
-    01-Dicas: Snippets, hacks de produtividade e links rápidos.
-
-    02-Processamento: Spark, Python, SQL, otimização e padrões de projeto.
-
-    03-Governança: Qualidade de dados, catálogo, linhagem e conformidade (LGPD).
-
-    04-AI: MLOps, LLMs e preparação de dados para inteligência artificial.
-
-    05-DataOps: CI/CD, IAC, Observabilidade e monitoramento.
-
-    06-Ferramentas: Orchestrators (Airflow/Prefect), Cloud providers e Data Warehouses.
-
-    07-Off-topic: Carreira, eventos, networking e soft skills.
+1. **00_modelo**: Base de pasta de projeto para ser usada.
+1. **01_inbox**: Viu algo no WhatsApp ou LinkedIn? Joga aqui. Formato livre.
+1. **02_knowledge**: Artigos e tutoriais estruturados. Requer revisão.
+1. **03_labs**: Código real (Python, SQL, Terraform). Precisa rodar.
+1. **04_desafios**: Soluções para os desafios propostos pela comunidade.
 
 #### 🛠 Como utilizar este repositório
 - Busca: Use a barra de busca do GitHub ou navegue pelas pastas numeradas acima.
@@ -32,8 +24,6 @@ A estrutura é dividida em pilares estratégicos para facilitar a navegação e 
 Tratamos este repositório como um projeto de produção. Para manter a qualidade:
 
 - As contribuições devem seguir o Guia de Contribuição.
-
-- Todo código Python deve estar formatado com Black.
 
 - Novos materiais exigem revisão de pelo menos um membro do grupo.
 

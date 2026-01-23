@@ -1,8 +1,13 @@
 ### Guia de Contribuição - Networking Data Engineering
 Para manter este repositório como uma fonte de consulta confiável, seguimos padrões de engenharia. Utilize o checklist abaixo para validar sua contribuição antes de abrir o Pull Request.
 
-#### 1. Organização e Localização
-    [ ] O conteúdo foi inserido em uma subpasta dentro de um dos pilares (ex: processamento/etl-elt-spark/).
+## 📂 Onde contribuir?
+1. **00_inbox**: Viu algo no WhatsApp ou LinkedIn? Joga aqui. Formato livre.
+2. **01_knowledge**: Artigos e tutoriais estruturados. Requer revisão.
+3. **02_labs**: Código real (Python, SQL, Terraform). Precisa rodar.
+4. **03_challenges**: Soluções para os desafios propostos pela comunidade.
+
+## 1. Organização e Localização
 
     [ ] Não foram criadas pastas novas na raiz do projeto.
 
@@ -10,28 +15,38 @@ Para manter este repositório como uma fonte de consulta confiável, seguimos pa
 
     [ ] O conteúdo respeita a coerência do tópico (ex: lógica de transformação em Processamento, infra em DataOps).
 
-#### 2. Padrões de Código e Formatação
+## 2. Padrões de Código e Formatação
     [ ] Todo código Python foi formatado com o Black Formatter.
 
     [ ] Scripts complexos possuem comentários explicando blocos de lógica.
 
-    [ ] Arquivos de configuração ou credenciais (como .env) não foram incluídos.
+## 3. Layout de Envio (Estrutura da Pasta)
 
-    [ ] Obrigatório seguir o layout de pasta (arquivos padrões)! 
+### 📝 Descrição
+### 🗂️ Tipo de Contribuição
+    [ ] Inbox: Rascunho ou link rápido.
 
-#### 3. Layout de Envio (Estrutura da Pasta)
+    [ ] Knowledge: Guia/Artigo técnico.
 
-    [ ] Possui um README.md explicativo dentro da subpasta.
+    [ ] Labs: Código funcional/POC.
 
-    [ ] Código fonte está localizado na pasta src/. ou app/.
+### 🛠️ Checklist
 
-    [ ] Diagramas, imagens ou PDFs estão na pasta assets/.
+    [ ] Testei o código ou revisei os links?
 
-    [ ] Se houver lógica de negócio, incluiu testes simples na pasta tests/.
+    [ ] O arquivo segue o padrão de nomes (sem espaços/acentos)?
 
-    [ ] Caso tenho variaveis de ambiente ou algo como banco de dados, usar .gitignore
+    [ ] Atualizei o README principal (se necessário)?
 
-#### 4. Metadados e Identificação
+    [ ] Possui um README.md explicativo dentro da subpasta?
+
+    [ ] Código fonte está localizado na pasta src/. ou app/. (se aplicavel)?
+
+    [ ] Diagramas, imagens ou PDFs estão na pasta assets/. ou docs/. ?
+
+    [ ] Caso tenho variaveis de ambiente ou algo como banco de dados, usei .gitignore?
+
+## 4. Metadados e Identificação
 O README.md da subpasta deve começar com o seguinte cabeçalho preenchido:
 
     [ ] Autor: [Seu Nome/GitHub]
@@ -40,10 +55,12 @@ O README.md da subpasta deve começar com o seguinte cabeçalho preenchido:
 
     [ ] Data: [DD/MM/AAAA]
 
-#### 5. Fluxo de Revisão (Peer Review)
+## 5. Fluxo de Revisão (Peer Review)
 
-    [ ] Criei uma branch seguindo o padrão feature/nome-do-tema.
+    [ ] Abra uma Issue antes de começar (use os templates).
 
-    [ ] O Pull Request foi aberto contra a branch main.
+    [ ] Crie uma Branch (`feat/nome-da-feature`).
 
-    [ ] Enviei o link no Grupo do WhatsApp para solicitar a revisão de 1 ou 2 outros membros. (Bom para criar uma rotina de aviso de coisa nova)
+    [ ] Abra um PR (Pull Request) preenchendo o checklist.
+
+    [ ] Review: Peça para alguém revisar. O merge só ocorre com 1 aprovação.

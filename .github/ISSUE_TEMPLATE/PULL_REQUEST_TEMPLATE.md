@@ -1,11 +1,11 @@
 ### Descrição da Contribuição
-[ ] Meu conteúdo está na pasta correta.
+[ ] Meu conteúdo está na pasta correta?.
 
-[ ] Mantive a estrutura conforme "00-modelo"
+[ ] Mantive a estrutura conforme "00-modelo", quando aplicavel?
 
 [ ] Criei uma subpasta seguindo o padrão de nomes (snake_Case)
 
-[ ] **README.md** com Autor, Contexto e Data no topo.
+[ ] **README.md** com Autor, Contexto e Data.
 
 ### Checklist de Estrutura (Layout de Envio)
 Verifique se sua pasta contém:
